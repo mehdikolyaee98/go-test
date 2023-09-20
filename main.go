@@ -8,7 +8,7 @@ import (
 func main() {
 	test.Test()
 	fmt.Println("nhdflgbikusheipguh")
-	var mehdiina string = "عذقهعثقبعغثقعغثعغثقبثغذقبثقغعثققاثع9ثبعاب.09.00"
+	var mehdiina string = "عذقهعثقبعغثقعغثعغثقغذقبثقغعثققاثع9ثبعاب.09.00"
 	fmt.Println(mehdiina)
 
 	var name string = "company netis"
