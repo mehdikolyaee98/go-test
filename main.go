@@ -1,7 +1,5 @@
 package main
 
-import "crypto/x509"
-
 const pi float64 = 3.14
 
 func main() {
@@ -273,9 +271,56 @@ func main() {
 	//fmt.Println(sumjadide())
 	//fmt.Println(sumjadide(10, 4141, 40, 0, 00, 0, 00, 04, 4, 5241, 6))
 	//00000000000
-	x:=
+	//جلسه بعدی
+	//i := 10
+	//fmt.Printf("%T %v \n", &i, &i) //پونتر و ادرس و فولان و این داستانا
+	//fmt.Printf("%T %v ", *(&i), *(&i))
+	//00000000000000
+	//a := "hello"
+	//fmt.Println(a)
+	//modify(&a)
+	//fmt.Println(a)
+	//000000
+	//var s student
+	//fmt.Printf("%+v", s)
+	//st := new(student)
+	//fmt.Printf("%+v", st)
+	//var c cricle
+	//c.x = 5
+	//c.y = 5
+	//c.radius = 58
+	//fmt.Printf("%+v", c)
+	//0000000000000لسه بعدی
+	//c := cricle{radius: 5}
+	//c.calceArea()
+	//fmt.Printf("%+v", c)
 
 }
+
+//type cricle struct {
+//	radius float64
+//	area   float64
+//}
+//
+//func (c *cricle) calceArea() {
+//	c.area = 3.14 * c.radius * c.radius
+//}
+
+//	type student struct {
+//		name   string
+//		rollno int
+//		marks  []int
+//		grads  map[string]int
+//	}
+//type cricle struct {
+//	x      int
+//	y      int
+//	radius int
+//}
+
+//func modify(s *string) {
+//	*s = "word"
+//}
 
 //func addnumbers(a int, b int) (int, int) {
 //	sum := a + b
